@@ -13,7 +13,7 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(name: "Antlr4", path: "Antlr"),
+        .package(name: "Antlr4", path: "Thirdparty/Antlr4/runtime/Swift"),
     ],
     targets: [
         .executableTarget(
