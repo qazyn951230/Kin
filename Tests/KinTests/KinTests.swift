@@ -29,7 +29,7 @@ final class KinTests: XCTestCase {
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
         let output = String(data: data, encoding: .utf8)
 
-        XCTAssertEqual(output, "Hello, world!\n")
+        XCTAssertEqual(output, "Cannot find any \'.xcodeproj\' or \'project.pbxproj\'.\n")
         #endif
     }
 
